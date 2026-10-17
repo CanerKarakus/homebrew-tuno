@@ -4,7 +4,7 @@ cask "tuno" do
 
   url "https://gettuno.info/updates/Tuno-#{version}.dmg"
   name "Tuno"
-  desc "Per-app volume, equalizer, window switcher and other missing Mac controls"
+  desc "Per-app volume, equalizer, window switcher and other missing system controls"
   homepage "https://gettuno.info/"
 
   livecheck do
@@ -14,7 +14,7 @@ cask "tuno" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Tuno.app"
 
