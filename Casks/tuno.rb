@@ -1,6 +1,6 @@
 cask "tuno" do
-  version "2.0.0"
-  sha256 "0db37fe85761414f6c56c69757ea6bfe719241105d4911d6cd0e1c4d6a02680e"
+  version "2.1.0"
+  sha256 "de8d3ad52c3ae1d9e0fd556bd513f27ff6d9db3c476f6f89a14f07180e4edbe1"
 
   url "https://gettuno.info/updates/Tuno-#{version}.dmg"
   name "Tuno"
